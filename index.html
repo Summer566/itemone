@@ -2,34 +2,55 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>七彩云南</title>
+	<meta name="viewport" content="width=device-width initial-scale=1,user-scalable=no">
+	<title>彩云之南</title>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
-    <div class="main-wrapper">
-		<header>
-			<nav>
-			    <div class="logo"><a href="">拼命君</a></div>
-			    <ul>
-			    	<li><a href="" class="active">首 页</a></li>
-			    	<li><a href="#C1">❤ 大理 </a></li>
-			    	<li><a href="#C2">❤ 洱海</a></li>
-			    	<li><a href="#C3">❤ 丽江</a></li>
-				</ul>
-			</nav>
-			<div id="banner">
-			   <div class="inner">
-			   		<h1>彩 ❤ 云南</h1>
-					<p class="sub-heading">这里的山，云梦萦绕；这里的水，满江春意；这里的花，争相竞艳；这里的人，淳朴善良。千年历史，多民族多文化交融，形成了独特彩云之南。</p>
-			   </div>	
-			</div>
-		</header>
+<body> 
+    <nav class="navbar navbar-default">
+		<div class="container-fluid"> 
+		 <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	        </button>
+	        <a class="navbar-brand" href="index.html">首页</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	        <ul class="nav navbar-nav">
+		        <li><a href="page1.html">❤ 大理<span class="sr-only">(current)</span></a></li>
+		        <li><a href="page2.html">❤ 洱海</a></li>
+		        <li><a href="page3.html">❤ 丽江</a></li>
+	        </ul>
+		    <form class="navbar-form navbar-left">
+		        <div class="form-group">
+		          <input type="text" class="form-control" placeholder="Search">
+		        </div>
+		        <button type="submit" class="btn btn-default">搜索</button>
+		    </form>
+	    </div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+
+	<div class="main-wrapper">
+		<div id="banner">
+		   <div class="inner">
+		   		<h1>彩 ❤ 云南</h1>
+				<p class="sub-heading">这里的山，云梦萦绕；这里的水，满江春意；这里的花，争相竞艳；这里的人，淳朴善良。千年历史，多民族多文化交融，形成了独特彩云之南。</p>
+		   </div>	
+		</div>
+	
 		<div class="content">
 			<div class="blue-section">
 				
 					<div class="wrapper">
-						<h2><a name="C1">大理古城</a></h2>
+						<h2>大理古城</h2>
 						<div class="hr"></div>
 						<p class="sub-heading">“文献名邦”之都，南诏国都城--大理古城，又名叶榆城、紫禁城、中和镇。古城其历史可追溯至唐天宝年间，南诏王阁逻凤筑的羊苴咩城(今城之西三塔附近)，为其新都。现在的古城外有条护城河，古城四周有城墙，东、西、南、北各设一门，均有城楼，四角还有角楼。</p>
 					</div>
@@ -43,7 +64,7 @@
 			<div class="gray-section">
 				<div class="article-preview">
 					<div class="text-section">
-					    <h2><a name="C2">云南洱海</a></h2>
+					    <h2>云南洱海</h2>
 						<p>洱海水质优良，水产资源丰富，同时也是一个有着迤逦风光的风景区。洱海，虽然称之为海，但其实是一个湖泊，据说是因为白族人民没有见过海，为表示对海的向往，所以称之为洱海。</p>
 					</div>
 					<div class="img-section">
@@ -72,7 +93,7 @@
 			<div class="purple-section">
 				<div class="wrapper">
 					<div class="heading-wrapper">
-						<h2><a name="C3">丽江古镇</a></h2>
+						<h2>丽江古镇</h2>
 						<div class="hr"></div>
 						<div class="sub-heading">
 							丽江自古以来是丝绸之路和茶马古道的中转站，丽江有建于南宋的丽江古城，纳西族名称叫“巩本知”，“巩本”为仓廪，“知”即集市，丽江古城曾是仓廪集散之地。
@@ -102,6 +123,13 @@
 		<footer>
 			<p>&copy 拼命君 -2017</p>
 		</footer>
-	</div>	
+	</div>
+	<button class="back">返回顶部</button>
+
+	
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	
 </body>
 </html>

@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* header */
+
+.navbar{
+    margin-bottom: 0; /*解决底部空白*/
+}
+nav{
+	overflow: hidden;  /* 解决右侧空白*/
+}
+nav a{
+	font-size: 18px;
+}
+.main-wrapper{
+	background: #444 url(../img/banner.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	position: relative;
+}
+nav a:hover{
+	border-bottom: 2px solid red;
+}
+h2{
+	margin: 0;
+	font-size: 35px;
+	font-weight: 500;
+	text-align: center;
+	padding:150px 0;
+	font-weight: bold;
+	text-shadow: 2px 5px 2px #ca9a15;
+}
+h2:after{
+	content: "";
+    position: absolute;
+    top: 195px;
+    left: 50%;
+    width: 100px;
+    height: 3px;
+    background: #ff3366;
+    transform: translate3d(-50%,0,0);
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+p{
+	line-height: 35px;
+	font-size: 16px;
+	text-indent: 50px;
+	color: #000;
+}
+/* footer */
+
+footer{
+	height: 90px;
+	background:#A9A9A9;
+	
+}
+footer p{
+	padding-top: 40px;
+	text-align: center;
+	color: #fff;
+
+}
+
+
+   /* page 1  */
+.blue-section{
+	background: #95d0de;
+	color: #fff;
+	padding: 100px 0;
+}
+
+.blue-section .icon-group img{	
+	width: 400px;
+	height: 300px;
+	background: #fff;
+	margin: 30px 20px; 
+	box-shadow: 10px 10px 5px #717a7f; 
+	overflow: hidden;
+}
+@media (max-width:450px){
+   .blue-section .icon-group img{width: 90%;height: 250px;}
+   .blue-section p{padding: 0 15px;}
+}
+@media (max-width:1250px) and (min-width:450px){
+   .blue-section .icon-group img{margin-left:10%; width: 80%;height: 550px;}
+   .blue-section p{padding: 0 15px;}
+}
+    /* page 2  */
+.gray-section{
+	background: #bbb4d6;
+	
+	
+}
+.gray-section .carousel img{
+	width: 100%;
+	height: 500px;
+}
+
+.gray-footer{
+	margin-top: -20px;
+}
+.gray-section .panel{
+	line-height: 35px;
+	font-size: 16px;
+}
+
+
+/* page 3 */
+.purple-section{
+	background: #bbb4d6;
+}
+.purple-section .carousel img{
+	width: 100%;
+	height: 550px;
+}
+button.back{
+	position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: 1px solid #ddd;
+    background: #999;
+    width: 42px;
+    color: #f2dede;
+    border-radius: 5px 5px;
+}
